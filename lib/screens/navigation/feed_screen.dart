@@ -15,7 +15,12 @@ class _FeedScreenState extends State<FeedScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Watchlist App'),
+        title: Text(
+          'Watchlist App',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+          ),
+        ),
       ),
       body: SingleChildScrollView(
         child: Column(

@@ -11,9 +11,9 @@ class Interaction extends StatelessWidget {
         Card(
           elevation: 3,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(21.0),
           ),
-          color: Colors.purple,
+          color: Theme.of(context).primaryColor,
           child: IconButton(
             onPressed: () {},
             icon: Icon(
@@ -28,9 +28,9 @@ class Interaction extends StatelessWidget {
         Card(
           elevation: 3,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(21.0),
           ),
-          color: Colors.purple,
+          color: Theme.of(context).primaryColor,
           child: IconButton(
             onPressed: () {},
             icon: Icon(
@@ -45,9 +45,9 @@ class Interaction extends StatelessWidget {
         Card(
           elevation: 3,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
+            borderRadius: BorderRadius.circular(21.0),
           ),
-          color: Colors.purple,
+          color: Theme.of(context).primaryColor,
           child: IconButton(
             onPressed: () {},
             icon: Icon(
